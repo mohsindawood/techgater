@@ -37,7 +37,7 @@ export default function OurClients() {
                     <Typography variant="h2" color="text.primary" sx={{ mb: 5 }}>Clients work with</Typography>
                     <Marquee {...setting}>
                          {logoData.map((v) => (
-                              <Stack spacing={3} direction="row" alignItems='center'>
+                              <Stack  key={Mtah.random()} spacing={3} direction="row" alignItems='center'>
                                    <Box mx={3} sx={{
                                         bgcolor: "#ffff",
                                         display: "flex",
